@@ -1,0 +1,85 @@
+.header{
+   background-color :antiquewhite;
+   display: flex;
+   justify-content: space-between;
+
+
+}
+.start{
+    text-align: center;
+    background-color: beige;
+    
+}
+.main{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+
+}
+.sub{
+    background-color: bisque;
+}
+.pic{
+    background-color: bisque; 
+}
+.pic:hover img{
+    transform: scale(1.3);
+   
+}
+.pic{
+    position: relative;
+}
+
+.sub{
+    
+    background-color: lightcoral;
+    padding: 30px;
+    margin: 25px;
+    width: 200px;
+    font-family: cursive;
+}
+a:link{
+    color:red
+    }
+    a:visited{
+        color: black
+    }
+a:link:hover{
+    color: blueviolet;
+}
+.pic{
+    position: relative;
+}
+.pic p{
+    position:absolute;
+    top:50% ;
+    left:50%;
+    transform: translate(-50%, -10%);
+    opacity:0;
+  
+    
+    
+}
+
+
+.pic:hover p{
+  opacity:0.8;
+}
+
+.pic{
+   font-family: fantasy;
+    font-style: bold;
+}
+.link{
+    font-family: monospace;
+    background-color: beige;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+a{
+    text-decoration: none;
+}
